@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://kodilla-java-2.lukstasko.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1/trello';
+  const trelloApiRoot = 'https://kodilla-java-2.lukstasko.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
